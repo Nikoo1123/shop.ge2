@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100rem;
+  background: #80dbff;
+}
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+.autorizacia {
+  margin-left: 64rem;
+  height: 2.5rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.autorizacia:hover {
+  background-color: #9dff00;
+  animation-delay: 2s;
+  transition-delay: 0s;
+  box-shadow: 0 5px 15px #a9e34b;
+}
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2c3136;
+  margin-left: 20px;
+}
+hr {
+  border-color: gray;
+}
+a:hover,
+a:active {
+  color: rgb(24, 226, 51);
+}
+.autorization-div {
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 15rem;
+}
+.fasdakleba {
+  height: 6.3rem;
+  width: 1200px;
+  margin-left: 91px;
+  border: solid black 0px;
+  margin-top: 2rem;
+  background-color: rgb(230, 240, 226);
+}
+.fasdaklebis-img {
+  height: 6.3rem;
+  width: 1200px;
+}
+
+.nivtebi {
+  margin-top: 3rem;
+  height: 30.3rem;
+  width: 1200px;
+  margin-left: 91px;
+  border: solid black 0px;
+  border-radius: 20px;
+  background-color: rgb(206, 255, 239);
+}
+.sell {
+  height: 200px;
+  width: 15.3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  border: solid black 0px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+.sell-nivtebi {
+  position: relative;
+  height: 200px;
+  width: 15rem;
+  border-radius: 10px;
+  position: absolute;
+}
+.buy-icons {
+  position: absolute;
+  height: 50px;
+  margin-top: 140px;
+  margin-left: 90px;
+}
+.sell-nivtebi:hover ~ .buy-icons {
+  display: block;
+}
+.sell-nivtebi ~ .buy-icons {
+  display: none;
+}
+/* <<<<<<<< რისპონსივი >>>>>>> */
+@media all and (max-width: 1300px) {
+  header {
+    width: 100%;
+  }
+  .autorization-div {
+    margin-left: -1rem;
+    position: absolute;
+  }
+  .fasdakleba {
+    display: none;
+  }
+  .fasdaklebis-img {
+    display: none;
+  }
+  .nivtebi {
+    width: 1000px;
+    position: absolute;
+    margin-left: 50px;
+    height: 800px;
+  }
+}
+@media all and (max-width: 1050px) {
+  header {
+    width: 100%;
+  }
+  .autorization-div {
+    margin-left: -7rem;
+    position: absolute;
+  }
+  .fasdakleba {
+    display: none;
+  }
+  .fasdaklebis-img {
+    display: none;
+  }
+  .nivtebi {
+    width: 900px;
+    position: absolute;
+    margin-left: 50px;
+  }
+}
+@media all and (max-width: 900px) {
+  header {
+    width: 100%;
+  }
+  .autorization-div {
+    margin-left: -17rem;
+    position: absolute;
+  }
+  .fasdakleba {
+    display: none;
+  }
+  .fasdaklebis-img {
+    display: none;
+  }
+  .nivtebi {
+    width: 700px;
+    position: absolute;
+    margin-left: 50px;
+    height: 1000px;
+  }
+}
+
+@media all and (max-width: 780px) {
+  header {
+    width: 100%;
+  }
+  .autorization-div {
+    margin-left: -27rem;
+    position: absolute;
+  }
+  .fasdakleba {
+    display: none;
+  }
+  .fasdaklebis-img {
+    display: none;
+  }
+  .nivtebi {
+    width: 550px;
+    position: absolute;
+    margin-left: 50px;
+    height: 1900px;
+  }
+}
+@media all and (max-width: 620px) {
+  header {
+    width: 100%;
+  }
+  .autorization-div {
+    margin-left: -37rem;
+    position: absolute;
+  }
+  .fasdakleba {
+    display: none;
+  }
+  .fasdaklebis-img {
+    display: none;
+  }
+  .nivtebi {
+    width: 450px;
+    position: absolute;
+    margin-left: 50px;
+  }
+}
+@media all and (max-width: 475px) {
+  header {
+    width: 100%;
+  }
+  .autorization-div {
+    margin-left: -47rem;
+    position: absolute;
+  }
+  .fasdakleba {
+    display: none;
+  }
+  .fasdaklebis-img {
+    display: none;
+  }
+  .nivtebi {
+    width: 300px;
+    position: absolute;
+    margin-left: 50px;
+  }
+}
